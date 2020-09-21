@@ -1,0 +1,90 @@
+I"<hr />
+
+<p>Untuk menjalankan Python ada banyak cara yang bisa dilakukan. Anda bisa menggunakan sheel, terminal atau menggunakan <a href="http://www.belajarpython.com/2015/05/integrated-development-environment-ide.html">IDE (Integrated Development Environment)</a>. Di bawah ini adalah langkah-langkah menjalankan Python dengan cara yang paling mudah.</p>
+
+<h3 id="linux">Linux</h3>
+<ol>
+  <li>Buka terminal <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>T</kbd></li>
+  <li>Ketik python maka Anda akan masuk ke sheel Python.</li>
+  <li>Tuliskan script Python Anda, contoh: <code class="highlighter-rouge">print("Selamat datang di Python")</code>. jika sudah tekan tombol <kbd>ENTER</kbd>, dan script Python akan dijalankan/eksekusi.</li>
+  <li>Untuk keluar dari sheel Python ketik <code class="highlighter-rouge">exit()</code></li>
+</ol>
+
+<p><em>atau</em></p>
+
+<ol>
+  <li>Gunakan teks editor, misalnya gedit.</li>
+  <li>Buat file baru, dan ketikan script python Anda, contoh: <code class="highlighter-rouge">print("Selamat datang di Python")</code>.</li>
+  <li>Save As dengan ekstensi <code class="highlighter-rouge">.py</code> (contoh: <code class="highlighter-rouge">cetak.py</code>).</li>
+  <li>Jalankan file dengan menggunakan Terminal.</li>
+  <li>Buka terminal <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>T</kbd>.</li>
+  <li>Masuk ke direktori dimana file Python Anda disimpan (contoh: <code class="highlighter-rouge">cd /Users/admin/Desktop/</code>).</li>
+  <li>Jalankan script Python dengan menggunakan python diikuti dengan nama file (contoh: <code class="highlighter-rouge">python cetak.py</code>).</li>
+  <li>Script Python Anda akan dieksekusi/dijalankan.</li>
+</ol>
+
+<h3 id="windows">Windows</h3>
+<h4 id="menggunakan-shell">Menggunakan Shell</h4>
+<ol>
+  <li>Buka IDLE (python shell di windows), Anda bisa mencarinya di tombol <kbd>START</kbd>.</li>
+  <li>Tuliskan script Python Anda, contoh: <code class="highlighter-rouge">print("Selamat datang di Python")</code>. jika sudah tekan tombol <kbd>ENTER</kbd>, dan script Python akan dijalankan/eksekusi.</li>
+</ol>
+
+<p><img src="/images/menjalankan-python-windows.png" alt="Python Shell Windows" title="Python Shell Windows" /></p>
+
+<ol>
+  <li>Untuk keluar dari sheel Python ketik <code class="highlighter-rouge">exit()</code></li>
+</ol>
+
+<h4 id="menggunakan-script-editor">Menggunakan Script Editor</h4>
+<ol>
+  <li>Untuk menjalankan script yang disimpan dalam file, buka IDLE (python shell di windows), Anda bisa mencarinya di tombol <kbd>START</kbd>.</li>
+  <li>Klik menu <code class="highlighter-rouge">File - New File</code></li>
+  <li>Tulis script Python pada window yang muncul, contoh:</li>
+</ol>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">print</span><span class="p">(</span><span class="s">"Belajar Python"</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">"di belajarpython.com"</span><span class="p">)</span></code></pre></figure>
+
+<ol>
+  <li>Simpan script lewat menu <code class="highlighter-rouge">File - Save</code></li>
+  <li>Jalankan program dengan klik menu <code class="highlighter-rouge">Run - Run Module</code></li>
+</ol>
+
+<p><img src="/images/menjalankan-python-windows-editor.png" alt="Python Editor Windows" title="Python Editor Windows" /></p>
+
+<h3 id="mac-os">Mac OS</h3>
+<ol>
+  <li>Buka terminal.</li>
+  <li>Ketik python maka Anda akan masuk ke sheel Python.</li>
+  <li>Tuliskan script Python Anda, contoh: <code class="highlighter-rouge">print("Selamat datang di Python")</code>. jika sudah tekan tombol <kbd>ENTER</kbd>, dan script Python akan dijalankan/eksekusi.</li>
+  <li>Untuk keluar dari sheel Python ketik <code class="highlighter-rouge">exit()</code></li>
+</ol>
+
+<p><em>atau</em></p>
+
+<ol>
+  <li>Gunakan teks editor.</li>
+  <li>Buat file baru, dan ketikan script python Anda, contoh: <code class="highlighter-rouge">print("Selamat datang di Python")</code>.</li>
+  <li>Save As dengan ekstensi <code class="highlighter-rouge">.py</code> (contoh: <code class="highlighter-rouge">cetak.py</code>).</li>
+  <li>Jalankan file dengan menggunakan Terminal.</li>
+  <li>Buka terminal <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>T</kbd></li>
+  <li>Masuk ke direktori dimana file Python Anda disimpan (contoh: <code class="highlighter-rouge">cd /Users/admin/Desktop/</code>).</li>
+  <li>Jalankan script Python dengan menggunakan python diikuti dengan nama file (contoh: <code class="highlighter-rouge">python cetak.py</code>).</li>
+  <li>Script Python Anda akan dieksekusi/dijalankan.</li>
+</ol>
+
+<hr />
+<blockquote>
+  <p><a href="https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/menjalankan-python.md">Edit tutorial ini</a></p>
+</blockquote>
+
+<div class="row navigation-tutorial">
+    <div class="col-md-6 prev-tutorial">
+        <a href="/tutorial/instalasi-python"><i class="fas fa-arrow-circle-left"></i>Instalasi Python</a>
+    </div>
+    <div class="col-md-6 next-tutorial">
+        <a href="/tutorial/hello-world-python" class="hoverable">Hello World Python<i class="fas fa-arrow-circle-right"></i></a>
+    </div>
+</div>
+:ET
