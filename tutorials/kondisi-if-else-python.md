@@ -28,6 +28,16 @@ if(nilai > 7):
 #jika kondisi salah/FALSE maka program tidak akan mengeksekusi perintah dibawahnya
 if(nilai > 10):
     print("Selamat Anda Lulus")
+
+#hanya jika kedua kondisi terpenuhi (`nilai>7` **dan** `nilai<=10`), maka eksekusi perintah
+#perintah akan dieksekusi jika `nilai`: 8,9,10
+if (nilai >7) and (nilai<=10):
+    print("Nilai Anda Bagus")
+
+#perintah akan dieksekusi jika salah satu dari kondisi (`nilai>7` **atau** `nilai<=10`), bernilai benar
+#contoh `nilai`: ...,-2,-1,11,12,13,...
+if (nilai<0) or (nilai>10):
+    print("Nilai yang diinput salah")
 {% endhighlight %}
 
 Dari contoh diatas, jika program dijalankan maka akan mencetak string `"Selamat Anda Lulus Ujian"` sebanyak 1 kali yaitu pada if pertama. Di if kedua statement bernilai salah, jadi perintah `print("Selamat Anda Lulus")` tidak akan dieksekusi.
