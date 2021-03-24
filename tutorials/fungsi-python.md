@@ -19,13 +19,57 @@ Anda dapat menentukan fungsi untuk menyediakan fungsionalitas yang dibutuhkan. B
 - Pernyataan kembali [ekspresi] keluar dari sebuah fungsi, secara opsional menyampaikan kembali ekspresi ke pemanggil. Pernyataan pengembalian tanpa argumen sama dengan return None.
 
 Contoh fungsi
+{% highlight python %}
+def cetak_bilangan():
+    "Fungsi ini mencetak bilangan 1 sampai 3"
+    i = 1
+    while i < 4:
+        print(i)
+        i = i + 1
+    return 
+
+cetak_bilangan()
+# output:
+# 1
+# 2
+# 3
+{% endhighlight %}
+
+Kita bisa menambahkan parameter pada fungsi seperti berikut:
 
 {% highlight python %}
-def printme( str ):
-   "This prints a passed string into this function"
-   print (str)
-   return
+def cetak_bilangan(n):
+    "Fungsi ini mencetak bilangan 1 sampai n"
+    i = 1
+    while i<n:
+        print(i)
+        i = i + 1
+    return
+
+cetak_bilangan(4)
+
+# output:
+# 1
+# 2
+# 3
 {% endhighlight %}
+
+Kita juga bisa memiliki fungsi yang memiliki nilai kembali (_return value_) seperti berikut:
+
+{% highlight python %}
+def luas_persegi(panjang,lebar):
+    luas = panjang * lebar
+    return luas # return value
+
+p = 3
+l = 4
+# cara memanggil fungsi
+print("Luas Persegi =", luas_persegi(p,l))
+
+# output:
+# Luas Persegi = 12
+{% endhighlight %}
+
 
 
 

@@ -27,11 +27,15 @@ if(nilai > 7):
 
 #jika kondisi salah/FALSE maka program tidak akan mengeksekusi perintah dibawahnya
 if(nilai > 10):
-    print("Sembilan Lebih Besar Dari Angka Sepuluh") # Kondisi Salah, Maka tidak tereksekusi
+    print("Selamat Anda Lulus")
+
+#kondisi menggunakan operator logika `and`
+if (nilai >7) and (nilai<=10):
+    print("Nilai Anda Bagus")
+
 {% endhighlight %}
 
-Dari contoh diatas, jika program dijalankan maka akan mencetak string `"Sembilan Lebih Besar Dari Angka Tujuh"` sebanyak 1 kali yaitu pada if pertama. Di if kedua statement bernilai salah, jadi perintah `print("Sembilan Lebih Besar Dari Angka Sepuluh")` tidak akan dieksekusi.
-
+Dari contoh diatas, jika program dijalankan maka akan mencetak string `"Selamat Anda Lulus Ujian"` sebanyak 1 kali yaitu pada if pertama. Di `if` kedua statement bernilai salah, jadi perintah `print("Selamat Anda Lulus")` tidak akan dieksekusi. `if` yang ketiga menggabungkan 2 kondisi menggunakan operator logika `and` sehingga `"Nilai Anda Bagus"` akan dicetak jika kedua kondisi tersebut bernilai benar.
 
 ### Kondisi If Else
 Pengambilan keputusan (kondisi if else) tidak hanya digunakan untuk menentukan tindakan apa yang akan diambil sesuai dengan kondisi, tetapi juga digunakan untuk menentukan tindakan apa yang akan diambil/dijalankan jika kondisi tidak sesuai.
