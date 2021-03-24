@@ -70,12 +70,15 @@ Untuk secara eksplisit menghapus keseluruhan tuple, cukup gunakan del statement.
 
 
 {% highlight python %}
-tup = ('fisika', 'kimia', 1993, 2017);
+tup = ('fisika', 'kimia', 1993, 2017)
+print(tup)
 
-print (tup)
-del tup;
-print "Setelah menghapus tuple : "
-print tup
+# hapus tuple dengan statement del
+del tup
+
+# lalu buat kembali tuple yang baru dengan elemen yang diinginkan
+tup = ('Bahasa', 'Literasi', 2020)
+print("Setelah menghapus tuple :", tup)
 {% endhighlight %}
 
 
@@ -116,7 +119,7 @@ Python menyertakan fungsi built-in sebagai berikut
 | `len(tuple)` |		Memberikan total panjang tuple. |	
 | `max(tuple)` |		Mengembalikan item dari tuple dengan nilai maks. |	
 | `min(tuple)` |		Mengembalikan item dari tuple dengan nilai min. |	
-| `tuple(seq)` |		Mengubah tuple menjadi tuple. |	
+| `tuple(seq)` |		Mengubah seq menjadi tuple. |	
 
 > [Edit tutorial ini](https://github.com/belajarpythoncom/belajarpythoncom.github.io/edit/master/tutorials/tuple-python.md)
 
